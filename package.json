@@ -6,10 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/okrysiuk/heroku_telegram_course.git"
-  },
   "engines": {
     "node": "8.10.0"
   },
@@ -17,12 +13,9 @@
     "course"
   ],
   "author": "i",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/okrysiuk/heroku_telegram_course/issues"
-  },
-  "homepage": "https://github.com/okrysiuk/heroku_telegram_course#readme",
+  "license": "",
   "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
     "request": "^2.88.0"
   }
 }
